@@ -3,7 +3,14 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-<file:///C:/Users/DRILON/ConsumeLinkedDataProject/#me>
+<https://raw.githubusercontent.com/drilonsaiti/foaf/master/foaf.ttl>
+        rdf:type              foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <https://raw.githubusercontent.com/drilonsaiti/foaf/master/foaf.ttl#me> ;
+        foaf:primaryTopic     <https://raw.githubusercontent.com/drilonsaiti/foaf/master/foaf.ttl#me> .
+
+<https://raw.githubusercontent.com/drilonsaiti/foaf/master/foaf.ttl#me>
         rdf:type             foaf:Person ;
         foaf:family_name     "Saiti" ;
         foaf:givenname       "Drilon" ;
@@ -19,10 +26,3 @@
         foaf:phone           <tel:+38970602153> ;
         foaf:schoolHomepage  <https://finki.ukim.mk/> ;
         foaf:title           "Mr" .
-
-<file:///C:/Users/DRILON/ConsumeLinkedDataProject/>
-        rdf:type              foaf:PersonalProfileDocument ;
-        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
-        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
-        foaf:maker            <file:///C:/Users/DRILON/ConsumeLinkedDataProject/#me> ;
-        foaf:primaryTopic     <file:///C:/Users/DRILON/ConsumeLinkedDataProject/#me> .
