@@ -1,0 +1,28 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<file:///C:/Users/DRILON/ConsumeLinkedDataProject/#me>
+        rdf:type             foaf:Person ;
+        foaf:family_name     "Saiti" ;
+        foaf:givenname       "Drilon" ;
+        foaf:homepage        <https://github.com/drilonsaiti> ;
+        foaf:knows           [ rdf:type           foaf:Person ;
+                               rdfs:seeAlso       <https://www.facebook.com/bsaiti39> ;
+                               foaf:mbox_sha1sum  "2f62a56fb62d7ac94bff213b4451833657fae331" ;
+                               foaf:name          "Blend"
+                             ] ;
+        foaf:mbox_sha1sum    "ab67ccd6f30b67c5b85fd07ad36dee00992b68d4" ;
+        foaf:name            "Drilon Saiti" ;
+        foaf:nick            "Loni" ;
+        foaf:phone           <tel:+38970602153> ;
+        foaf:schoolHomepage  <https://finki.ukim.mk/> ;
+        foaf:title           "Mr" .
+
+<file:///C:/Users/DRILON/ConsumeLinkedDataProject/>
+        rdf:type              foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <file:///C:/Users/DRILON/ConsumeLinkedDataProject/#me> ;
+        foaf:primaryTopic     <file:///C:/Users/DRILON/ConsumeLinkedDataProject/#me> .
