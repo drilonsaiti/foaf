@@ -16,7 +16,7 @@
         foaf:givenname       "Drilon" ;
         foaf:homepage        <https://github.com/drilonsaiti> ;
         foaf:knows           [ rdf:type           foaf:Person ;
-                               rdfs:seeAlso       <https://www.facebook.com/bsaiti39> ;
+                               rdfs:seeAlso       <https://raw.githubusercontent.com/drilonsaiti/foaffriend/master/foaf.ttl> ;
                                foaf:mbox_sha1sum  "2f62a56fb62d7ac94bff213b4451833657fae331" ;
                                foaf:name          "Blend"
                              ] ;
